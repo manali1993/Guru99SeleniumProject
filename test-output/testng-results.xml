@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestngRunner" duration-ms="29021" started-at="2020-09-30T14:07:45Z" finished-at="2020-09-30T14:08:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29021" started-at="2020-09-30T14:07:45Z" finished-at="2020-09-30T14:08:14Z">
+      <class name="com.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="4781" started-at="2020-09-30T14:07:54Z" finished-at="2020-09-30T14:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTitleTest()[pri:1, instance:com.testcases.LoginPageTest@42d80b78]" name="validateTitleTest" duration-ms="8" started-at="2020-09-30T14:07:59Z" finished-at="2020-09-30T14:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTest@42d80b78]" name="quitBrowser" is-config="true" duration-ms="695" started-at="2020-09-30T14:07:59Z" finished-at="2020-09-30T14:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="4338" started-at="2020-09-30T14:08:00Z" finished-at="2020-09-30T14:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validUnPwd(java.lang.String, java.lang.String)[pri:2, instance:com.testcases.LoginPageTest@42d80b78]" name="validUnPwd" duration-ms="1496" started-at="2020-09-30T14:08:04Z" data-provider="TestData" finished-at="2020-09-30T14:08:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr286289]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AvEdEjU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUnPwd -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTest@42d80b78]" name="quitBrowser" is-config="true" duration-ms="733" started-at="2020-09-30T14:08:05Z" finished-at="2020-09-30T14:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.LoginPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="4476" started-at="2020-09-30T14:08:06Z" finished-at="2020-09-30T14:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidUnValidPwd(java.lang.String, java.lang.String)[pri:3, instance:com.testcases.LoginPageTest@42d80b78]" name="invalidUnValidPwd" duration-ms="2969" started-at="2020-09-30T14:08:11Z" data-provider="TestData" finished-at="2020-09-30T14:08:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUnValidPwd -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.LoginPageTest@42d80b78]" name="quitBrowser" is-config="true" duration-ms="719" started-at="2020-09-30T14:08:14Z" finished-at="2020-09-30T14:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.testcases.LoginPageTest -->
+      <class name="com.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.HomePageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="7978" started-at="2020-09-30T14:07:45Z" finished-at="2020-09-30T14:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateManagerIdTest()[pri:0, instance:com.testcases.HomePageTest@3bfdc050]" name="validateManagerIdTest" duration-ms="52" started-at="2020-09-30T14:07:53Z" finished-at="2020-09-30T14:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateManagerIdTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testcases.HomePageTest@3bfdc050]" name="quitBrowser" is-config="true" duration-ms="731" started-at="2020-09-30T14:07:53Z" finished-at="2020-09-30T14:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestngRunner -->
+</testng-results>
