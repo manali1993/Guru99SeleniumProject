@@ -7,6 +7,6 @@ public class SignOutPageTest {
 	@Test
 	public void signoutpage(){
 		System.out.println("signout");
-		
+		System.out.println("add");
 	}
 }
